@@ -1,0 +1,16 @@
+dt,h1,dd,h2,p,strong {font-family: Verdana;}
+.container {font-size: medium; width:80%; margin:auto; background-color: white; padding: 1em; border-style: solid; border-width: 5px; border-color: purple;}
+h1 {font-size: 1.5em; color: purple !important;}
+dt {font-weight: bold;}
+.indt {font-style: italic; color: maroon !important;}
+h2 {font-weight: bold; font-family: Georgia; font-size: 1.2em;}
+header {color: grey;}
+.head {font-family: italic;}
+.price {font-family: Georgia; font-style: italic;}
+.warning {font-size: small; color: red;}
+body {line-height: 175%;}
+header,h2,.e {text-align: center;}
+.ee {font-size: 1em; text-transform: uppercase; letter-spacing: 1em; color: purple;}
+.e {font-style: italic;}
+dt {color: olive;}
+body {background-color: #f9e6ff;}
