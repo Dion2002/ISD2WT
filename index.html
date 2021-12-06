@@ -1,65 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-<!-- P9 -->
-<head><title>Black Goose Bistro Summer Menu</title>
-<meta charset="UTF-8">
-<link rel="shortcut icon" href="favicon.ico">
-<link rel="stylesheet" href="style.css">
-</head>
-<body><div class="container">
-	<header>
-		<img src="blackgoose.jpg" alt="1">
-		<h1>Black Goose Bistro • Summer Menu</h1>
-		<p class="head">Baker's Corner, Seekonk, Massachusetts<br />
-		<span class="label">Hours: Monday through Thursday:</span> 11 to 9, 
-		<span class="label">Friday and Saturday;</span> 11 to midnight</p>
+<!DOCTYPE>
+<html>
+	<head>
+		<title>EatSafe</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="rollover.js"></script>
 
-	</header>
-
-	<section id="appetizers">
-		<h2 class="ee">Appetizers</h2>
-		<p class="e">This season, we explore the spicy flavors of the southwest in our appetizer 
-		collection.</p>
-		<dl>
-			<dt>Black bean purses </dt>
-			<dd>Spicy black bean and a blend of mexican cheeses wrapped in sheets of 
-				phyllo and baked until golden. <span class="price">$3.95</span> </dd>
-
-			<dt class="newitem">Southwestern napoleons with lump crab — <strong class="indt">new item!</strong>  
-			</dt>
-			<dd>Layers of light lump crab meat, bean and corn salsa, and our handmade 
-				flour tortillas. <span class="price">$7.95</span> 
-			</dd>
-		</dl>
-	</section>
-
-	<section id="entrees">
-		<h2 class="ee">Main courses</h2>
-		<p class="e">Big, bold flavors are the name of the game this summer. Allow us to assist 
-		you with finding the perfect wine.</p>
-		<dl>
-			<dt class="newitem">Jerk rotisserie chicken with fried plantains — <strong class="indt">new 
-			item!</strong> </dt>
-			<dd>Tender chicken slow-roasted on the rotisserie, flavored with spicy and 
-			fragrant jerk sauce and served with fried plantains and fresh mango. 
-			<strong>Very spicy.</strong> <span class="price">$12.95</span> </dd>
-			<dt>Shrimp sate kebabs with peanut sauce </dt>
-			<dd>Skewers of shrimp marinated in lemongrass, garlic, and fish sauce then 
-			grilled to perfection. Served with spicy peanut sauce and jasmine rice. <span 
-			class="price">$12.95</span> </dd>
-			<dt>Grilled skirt steak with mushroom fricasee </dt>
-			<dd>Flavorful skirt steak marinated in asian flavors grilled as you like 
-			it<sup>*</sup>. Served over a blend of sauteed wild mushrooms with a side of 
-			blue cheese mashed potatoes. <span class="price"><span class="price">$16.95</span></span> </dd>
-		</dl>
-
-
-		<p class="warning"><sup>*</sup> We are required to warn you that undercooked food 
-		is a health risk.</p>
-
-	</section>
+    <link rel="stylesheet" type="text/css" href="rollover.css">
+	</head>
+	<body>
+	
+		<a href="index.html"><img src="image/logo.png" id="logo"></a>
+		
+		<a href="login.html" id="he"><h2 id="border">Login</h2></a>
+		<a href="index.html" id="he"><h2>Food Safety</h2></a>
+		<a href="index.html" id="he"><h2>Healthy Eating</h2></a>
+		<div id="nav">
+		
+		</div>	
+		
+		<div id="healthy">
+		<h1>Healthy Eating </h1>
+		<a href="index.html"><p>What is a healthy diet? ➤</p></a>
+		<a href="index.html"><p>Healthy meal ideas ➤</p></a>
+		<a href="family.html"><p>Family health ➤</p></a>
+		<a href="bmi.html"><p>BMI calculator ➤</p></a>
+		<a href="index.html"><p>Weight loss ➤</p></a>
+		</div>
+		<div id="foodimg">
+		
+		<img src="image/food.png" id="food"><br><br><br>
+		
+		<h3>What is a healthy diet?</h3>
+		</div>
+		<div id="foodimg2">
+		
+		
+		<ul id="image_rollovers">
+            <li><img src="image/family.jpeg" alt="" id="image/fam.jpg" class="food"></li>
+            
+        </ul>
+		<h3>Family Health</h3>
+		</div>
+		<label for="searchfield" id="searchbar">
+                    <input type="search" name="searchfield" id="searchfield" placeholder="Search...">
+                </label>
+		
+		
+		<footer><span id="clock"></span><center><p id="foota">K00255718</p></center>  </footer>
+		<script>
 
 
-</div>
-</body>
+// Define a function to display the current time
+function displayTime() {
+    let clock = document.querySelector("#clock"); // Get element with id="clock"
+    let now = new Date();                         // Get current time
+    clock.textContent = now.toLocaleTimeString(); // Display time in the clock
+}
+displayTime()                    // Display the time right away
+setInterval(displayTime, 1000);  // And then update it every second. 
+
+</script>
+
+	</body>
 </html>
